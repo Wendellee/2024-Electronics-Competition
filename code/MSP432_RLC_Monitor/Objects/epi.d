@@ -1,0 +1,16 @@
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\epi.c
+.\objects\epi.o: .\source\ti/devices/msp432e4/inc/msp432e411y.h
+.\objects\epi.o: .\source\third_party\CMSIS\Include\core_cm4.h
+.\objects\epi.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\epi.o: .\source\third_party\CMSIS\Include\cmsis_version.h
+.\objects\epi.o: .\source\third_party\CMSIS\Include\cmsis_compiler.h
+.\objects\epi.o: .\source\third_party\CMSIS\Include\cmsis_armcc.h
+.\objects\epi.o: .\source\third_party\CMSIS\Include\mpu_armv7.h
+.\objects\epi.o: .\source\ti/devices/msp432e4/inc/system_msp432e411y.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\types.h
+.\objects\epi.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\inc/hw_epi.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\inc/hw_sysctl.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\debug.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\epi.h
+.\objects\epi.o: source\ti\devices\msp432e4\driverlib\interrupt.h

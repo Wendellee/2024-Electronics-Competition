@@ -1,0 +1,17 @@
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\emac.c
+.\objects\emac.o: .\source\ti/devices/msp432e4/inc/msp432e411y.h
+.\objects\emac.o: .\source\third_party\CMSIS\Include\core_cm4.h
+.\objects\emac.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\emac.o: .\source\third_party\CMSIS\Include\cmsis_version.h
+.\objects\emac.o: .\source\third_party\CMSIS\Include\cmsis_compiler.h
+.\objects\emac.o: .\source\third_party\CMSIS\Include\cmsis_armcc.h
+.\objects\emac.o: .\source\third_party\CMSIS\Include\mpu_armv7.h
+.\objects\emac.o: .\source\ti/devices/msp432e4/inc/system_msp432e411y.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\types.h
+.\objects\emac.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\inc/hw_emac.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\debug.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\emac.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\sysctl.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\interrupt.h
+.\objects\emac.o: source\ti\devices\msp432e4\driverlib\sw_crc.h

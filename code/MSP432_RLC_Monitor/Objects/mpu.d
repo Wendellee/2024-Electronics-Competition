@@ -1,0 +1,15 @@
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\mpu.c
+.\objects\mpu.o: .\source\ti/devices/msp432e4/inc/msp432e411y.h
+.\objects\mpu.o: .\source\third_party\CMSIS\Include\core_cm4.h
+.\objects\mpu.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu.o: .\source\third_party\CMSIS\Include\cmsis_version.h
+.\objects\mpu.o: .\source\third_party\CMSIS\Include\cmsis_compiler.h
+.\objects\mpu.o: .\source\third_party\CMSIS\Include\cmsis_armcc.h
+.\objects\mpu.o: .\source\third_party\CMSIS\Include\mpu_armv7.h
+.\objects\mpu.o: .\source\ti/devices/msp432e4/inc/system_msp432e411y.h
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\types.h
+.\objects\mpu.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\inc/hw_nvic.h
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\debug.h
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\interrupt.h
+.\objects\mpu.o: source\ti\devices\msp432e4\driverlib\mpu.h

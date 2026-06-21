@@ -1,0 +1,9 @@
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\flash.c
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\types.h
+.\objects\flash.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\flash.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\inc/hw_flash.h
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\inc/hw_sysctl.h
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\debug.h
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\flash.h
+.\objects\flash.o: source\ti\devices\msp432e4\driverlib\interrupt.h

@@ -1,0 +1,12 @@
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\eeprom.c
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\types.h
+.\objects\eeprom.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\eeprom.o: F:\Keil_v5\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\inc/hw_eeprom.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\inc/hw_flash.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\inc/hw_sysctl.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\debug.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\flash.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\interrupt.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\sysctl.h
+.\objects\eeprom.o: source\ti\devices\msp432e4\driverlib\eeprom.h
