@@ -1,0 +1,43 @@
+C51 COMPILER V9.05   DELAY                                                                 05/25/2019 23:29:22 PAGE 1   
+
+
+C51 COMPILER V9.05, COMPILATION OF MODULE DELAY
+OBJECT MODULE PLACED IN delay.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE delay.c BROWSE INCDIR(..\262_51) DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          //--------------------------------------------------------------------------------------------------------
+             ------------
+   2          //程序描述：延时程序
+   3          //
+   4          // 作   者：凌智电子
+   5          #include<reg52.h>
+   6          #include<delay.h>
+   7          
+   8          //---------------------------
+   9          //延时毫秒程序
+  10          //---------------------------
+  11           void delayms(uint xms) //延迟时间      
+  12          {
+  13   1        uint i,j;
+  14   1        for(i=xms;i>0;i--)  //i=xms即延时约xms毫秒
+  15   1          for(j=110;j>0;j--);
+  16   1      }
+  17          //----------------------------------
+  18          //end of file
+  19          //----------------------------------
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     30    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

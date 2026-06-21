@@ -1,0 +1,70 @@
+//-----------------------------------------------------------------
+// 程序描述: 
+//		在Keil uVision4开发平台下基于STM32的程序模板，外设初始化以及配置
+// 作    者: 凌智电子
+// 开始日期: 2014-04-24
+// 完成日期: 2014-04-24
+// 修改日期:
+// 版    本: V1.0
+//   - V1.0: 初步模板
+// 调试工具: 凌智STM32+FPGA电子系统设计开发板、LZE_ST LINK2、2.8寸液晶屏
+// 说    明:
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+// 头文件包含
+//-----------------------------------------------------------------
+#include <stm32f10x.h>
+#include "PWMout.h"
+
+
+//-----------------------------------------------------------------
+// 功能程序区
+//-----------------------------------------------------------------
+
+//-----------------------------------------------------------------
+// void PeripheralInit(void)
+//-----------------------------------------------------------------
+// 函数功能: 外设初始化函数
+// 入口参数: 无 
+// 返 回 值: 无
+// 全局变量: 无
+// 注意事项: 无
+//-----------------------------------------------------------------
+void NVIC_TIM2_Config(void)
+{
+	NVIC_InitTypeDef NVIC_InitStructure;          // 定义结构体
+	
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0);          // 设为第0组
+	NVIC_InitStructure.NVIC_IRQChannel = TIM2_IRQn;          // 定时器2打开 
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;  // 先占优先级为0
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;       // 副优先级为0
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;          // 使能打开
+	 
+	NVIC_Init(&NVIC_InitStructure);                     //
+}
+
+//-----------------------------------------------------------------
+// void PeripheralInit(void)
+//-----------------------------------------------------------------
+// 函数功能: 外设初始化函数
+// 入口参数: 无 
+// 返 回 值: 无
+// 全局变量: 无
+// 注意事项: 无
+//-----------------------------------------------------------------
+void TIM2_Config(void)
+{
+	TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;          // 定义结构体
+	
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);        // 打开时钟使能
+	TIM_TimeBaseInitStructure.TIM_Prescaler = 1-1;              // 预分频数设置
+	TIM_TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;              // 向上计数
+	TIM_TimeBaseInitStructure.TIM_Period = 15-1;                // 装载值
+	TIM_TimeBaseInitStructure.TIM_ClockDivision = 0;            // 设置时钟: 不分割
+	 
+	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseInitStructure);
+}
+
+//-----------------------------------------------------------------
+// End Of File
+//-----------------------------------------------------------------

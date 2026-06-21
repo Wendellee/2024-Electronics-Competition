@@ -1,0 +1,34 @@
+*** Creating Trace Output File '.\Obj\STM32_262.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\delay.o"'
+### List of Objects: adding '".\obj\peripheralinit.o"'
+### List of Objects: adding '".\obj\max262.o"'
+### List of Objects: adding '".\obj\pwmoutput.o"'
+### List of Objects: adding '".\obj\key.o"'
+### List of Objects: adding '".\obj\charlcd.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\main.o" ".\obj\delay.o" ".\obj\peripheralinit.o" ".\obj\max262.o" ".\obj\pwmoutput.o" ".\obj\key.o" ".\obj\charlcd.o" ".\obj\misc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_fsmc.o" ".\obj\core_cm3.o" ".\obj\system_stm32f10x.o" ".\obj\startup_stm32f10x_hd.o" 
+--library_type=microlib --strict --scatter ".\Obj\STM32_262.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\STM32_262.map" -o .\Obj\STM32_262.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\STM32_262.axf'
+### ADS-LD Command File: '.\Obj\STM32_262.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\STM32_262.lnp', Handle=0x000006F0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\STM32_262.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

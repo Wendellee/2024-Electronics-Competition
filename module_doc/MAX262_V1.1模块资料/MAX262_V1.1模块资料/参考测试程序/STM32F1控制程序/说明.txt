@@ -1,0 +1,5 @@
+STM32f103_262：模块的CLK使用外部比如信号源输入的正方波信号。
+MAX262_STM32_LCD_PWM波：模块的CLK由STM32的PWM波产生。
+
+				凌智电子
+				fzlzdz.taobao.com

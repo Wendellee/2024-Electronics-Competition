@@ -1,0 +1,13 @@
+.\Obj\ad9226.o: ..\User\AD9226.c
+.\Obj\ad9226.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\Obj\ad9226.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\Obj\ad9226.o: D:\Keil\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\ad9226.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\Obj\ad9226.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\Obj\ad9226.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Obj\ad9226.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\Obj\ad9226.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Obj\ad9226.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\Obj\ad9226.o: ..\User\Delay.h
+.\Obj\ad9226.o: ..\User\AD9226.h
+.\Obj\ad9226.o: D:\Keil\keil\ARM\ARMCC\bin\..\include\stdio.h

@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\MyAdd\淘宝网店\滤波模块\开关电容滤波模块\MAX262\1-模块测试总结\测试程序\8051控制程序\MAX262_51\262.uvproj
+Project File Date:  05/25/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling max262.c...
+compiling delay.c...
+linking...
+Program Size: data=40.1 xdata=0 code=2955
+creating hex file from "262"...
+"262" - 0 Error(s), 0 Warning(s).

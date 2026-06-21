@@ -1,0 +1,5 @@
+"main.obj",
+"max262.obj",
+"delay.obj" 
+TO "262" 
+RAMSIZE(256) 

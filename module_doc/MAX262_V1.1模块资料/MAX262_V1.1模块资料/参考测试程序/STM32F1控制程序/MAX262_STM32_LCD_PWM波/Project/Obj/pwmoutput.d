@@ -1,0 +1,13 @@
+.\obj\pwmoutput.o: ..\User\PWMOutput.c
+.\obj\pwmoutput.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\obj\pwmoutput.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\obj\pwmoutput.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pwmoutput.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\obj\pwmoutput.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\obj\pwmoutput.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\obj\pwmoutput.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\obj\pwmoutput.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\pwmoutput.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\pwmoutput.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\obj\pwmoutput.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\obj\pwmoutput.o: ..\User\PWMOutput.h

@@ -1,0 +1,14 @@
+.\Obj\usart.o: ..\User\USART.c
+.\Obj\usart.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\Obj\usart.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\Obj\usart.o: D:\Keil\keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\usart.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\Obj\usart.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\Obj\usart.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Obj\usart.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\Obj\usart.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Obj\usart.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\Obj\usart.o: D:\Keil\keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\Obj\usart.o: ..\User\Delay.h
+.\Obj\usart.o: ..\User\USART.h
+.\Obj\usart.o: D:\Keil\keil\ARM\ARMCC\bin\..\include\stdio.h

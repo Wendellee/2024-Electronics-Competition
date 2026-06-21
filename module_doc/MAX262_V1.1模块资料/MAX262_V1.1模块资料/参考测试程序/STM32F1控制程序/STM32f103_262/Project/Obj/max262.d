@@ -1,0 +1,13 @@
+.\obj\max262.o: ..\User\MAX262.c
+.\obj\max262.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\obj\max262.o: ..\CMSIS\CoreSupport\core_cm3.h
+.\obj\max262.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\max262.o: ..\CMSIS\DeviceSupport\STM32F10x\system_stm32f10x.h
+.\obj\max262.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x_conf.h
+.\obj\max262.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\obj\max262.o: ..\CMSIS\DeviceSupport\STM32F10x\stm32f10x.h
+.\obj\max262.o: ..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\obj\max262.o: ..\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\obj\max262.o: ..\User\MAX262.h
+.\obj\max262.o: ..\User\delay.h
+.\obj\max262.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

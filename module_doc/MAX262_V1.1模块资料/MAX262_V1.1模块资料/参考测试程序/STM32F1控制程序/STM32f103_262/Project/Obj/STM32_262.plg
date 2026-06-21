@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\MyAdd\淘宝网店\滤波模块\开关电容滤波模块\MAX262\MAX262_V1.1模块资料\参考测试程序\STM32F1控制程序\STM32f103_262\Project\STM32_262.uvproj
+Project File Date:  05/25/2019
+
+<h2>Output:</h2>
+Load "D:\\MyAdd\\淘宝网店\\滤波模块\\开关电容滤波模块\\MAX262\\MAX262_V1.1模块资料\\参考测试程序\\STM32F1控制程序\\STM32f103_262\\Project\\Obj\\STM32_262.AXF" 
+Load "D:\\MyAdd\\淘宝网店\\滤波模块\\开关电容滤波模块\\MAX262\\MAX262_V1.1模块资料\\参考测试程序\\STM32F1控制程序\\STM32f103_262\\Project\\Obj\\STM32_262.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
